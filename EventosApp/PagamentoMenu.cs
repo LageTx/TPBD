@@ -125,7 +125,7 @@ namespace EventosApp
                     var valor = Convert.ToDecimal(reader["valor_pago"]);
                     total += valor;
                     var data = Convert.ToDateTime(reader["dataPagamento"]).ToString("dd/MM/yyyy");
-                    Console2.Info($"{reader["idPagamento"],-5} {reader["participante"],-28} {reader["tipoIngresso"],-12} R${valor:F2,-8} {reader["formaPagamento"],-20} {data,-12} {reader["statusPagamento"]}");
+                    Console2.Info($"{reader["idPagamento"],-5} {reader["participante"],-28} {reader["tipoIngresso"],-12} R${valor,-8:F2} {reader["formaPagamento"],-20} {data,-12} {reader["statusPagamento"]}");
                 }
                 if (!tem)
                     Console2.Info("Nenhum pagamento encontrado para este evento.");
