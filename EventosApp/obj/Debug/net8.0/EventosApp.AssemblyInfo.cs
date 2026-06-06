@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventosApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55796a9b8bca4b3ccaf04ee14fcd5af47167c868")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b806a26f29dc9166872701fb4f06124639627e28")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventosApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventosApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
